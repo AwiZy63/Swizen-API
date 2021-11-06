@@ -1,0 +1,63 @@
+{
+    "name": "swizen_api",
+    "version": "1.0.0",
+    "description": "��#\u0000 \u0000S\u0000w\u0000i\u0000z\u0000e\u0000n\u0000-\u0000A\u0000P\u0000I\u0000\r\u0000 \u0000",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "npx nodemon ./server.js",
+        "start": "node ./server.js",
+        "migrate": "npx sequelize-cli db:migrate"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Swizen/Swizen-API.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Swizen/Swizen-API/issues"
+    },
+    "homepage": "https://github.com/Swizen/Swizen-API#readme",
+    "dependencies": {
+        "@rodrigogs/mysql-events": "^0.6.0",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cookie-session": "^1.4.0",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "easyinvoice": "^1.0.148",
+        "express": "^4.17.1",
+        "express-rate-limit": "^5.3.0",
+        "fs": "0.0.1-security",
+        "gamedig": "^3.0.7",
+        "helmet": "^4.6.0",
+        "https": "^1.0.0",
+        "joi": "^17.4.2",
+        "joy": "^0.1.1",
+        "jsonwebtoken": "^8.5.1",
+        "mariadb": "^2.5.5",
+        "mysql": "^2.18.1",
+        "mysql-events": "0.0.11",
+        "mysql2": "^2.3.0",
+        "nanoid": "^3.1.28",
+        "nodeactyl": "^3.2.0",
+        "nodemailer": "^6.6.5",
+        "nodemon": "^2.0.12",
+        "phone": "^3.1.8",
+        "pino": "^6.13.3",
+        "pino-pretty": "^7.0.1",
+        "pterodactyl.js": "^2.1.1",
+        "random-token": "0.0.8",
+        "sequelize": "^6.6.5",
+        "socket.io": "^4.2.0",
+        "sqlstring": "^2.3.2",
+        "tcp-ping": "^0.1.1",
+        "tzdata": "^1.0.26",
+        "uuid": "^8.3.2",
+        "validator": "^13.6.0"
+    },
+    "devDependencies": {
+        "sequelize-cli": "^6.2.0"
+    }
+}
